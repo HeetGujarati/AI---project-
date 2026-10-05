@@ -6,6 +6,7 @@
 [![Tests](https://img.shields.io/badge/Tests-7%20Passed%20(100%25)-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Publication](https://img.shields.io/badge/IEEE%20Format-8--Page%20Report-blueviolet.svg)](experiments/results/ieee_report_8pages.pdf)
+[![Live Dashboard](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-success.svg)](https://heetgujarati.github.io/AI---project-/)
 
 An empirical research reproduction and novel algorithmic extension of **LoRA+: Efficient Low Rank Adaptation of Large Models** ([Hayou, Ghosh, & Yu, ICML 2024](https://proceedings.mlr.press/v235/hayou24a.html)), based on the official Berkeley reference implementation ([nikhil-ghosh-berkeley/loraplus](https://github.com/nikhil-ghosh-berkeley/loraplus)).
 
@@ -71,7 +72,7 @@ $$\lambda(t) = \lambda_{\min} + \frac{1}{2}(\lambda_{\max} - \lambda_{\min}) \le
 | **IEEE Conference Paper (8-Page)** | PDF | Full 8-page IEEE two-column manuscript with embedded plots and hardware telemetry | [`experiments/results/ieee_report_8pages.pdf`](experiments/results/ieee_report_8pages.pdf) |
 | **IEEE Conference Paper (5-Page)** | PDF | Compact 5-page IEEE two-column paper | [`experiments/results/ieee_report_5pages.pdf`](experiments/results/ieee_report_5pages.pdf) |
 | **IEEE LaTeX Source** | `.tex` | Publication-ready IEEEtran LaTeX manuscript (Overleaf compatible) | [`experiments/results/ieee_report.tex`](experiments/results/ieee_report.tex) |
-| **Interactive Dashboard** | HTML | Apache ECharts dark-mode interactive research dashboard | [`experiments/plots/dashboard.html`](experiments/plots/dashboard.html) |
+| **Interactive Dashboard** | HTML | Apache ECharts dark-mode interactive research dashboard | [Live GitHub Pages Demo](https://heetgujarati.github.io/AI---project-/) / [`experiments/plots/dashboard.html`](experiments/plots/dashboard.html) |
 | **Executive Markdown Summary** | `.md` | Markdown report of all findings | [`experiments/results/final_report.md`](experiments/results/final_report.md) |
 
 ---
