@@ -1,0 +1,857 @@
+[
+  {
+    "experiment_name": "lora",
+    "method": "lora",
+    "lr_a": 0.0001,
+    "lr_b": 0.0001,
+    "lr_ratio": 1.0,
+    "epochs": 1,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "max_seq_length": 512,
+    "total_params": 1552946688,
+    "trainable_params": 9232384,
+    "trainable_pct": 0.5945,
+    "train_loss": 1.1289,
+    "train_steps": 63,
+    "total_train_time_sec": 317.41,
+    "time_per_step_sec": 5.0383,
+    "optimizer_steps": 63,
+    "eval_loss": 1.0417,
+    "eval_perplexity": 2.834,
+    "peak_memory_allocated_mb": 4037.6,
+    "peak_memory_reserved_mb": 5830.0,
+    "loss_history": [
+      {
+        "step": 5,
+        "loss": 1.090828,
+        "lr_a": 0.0001,
+        "lr_b": 0.0001,
+        "elapsed_time": 20.2
+      },
+      {
+        "step": 10,
+        "loss": 1.141216,
+        "lr_a": 0.0001,
+        "lr_b": 0.0001,
+        "elapsed_time": 51.89
+      },
+      {
+        "step": 15,
+        "loss": 1.147826,
+        "lr_a": 0.0001,
+        "lr_b": 0.0001,
+        "elapsed_time": 78.73
+      },
+      {
+        "step": 20,
+        "loss": 1.120882,
+        "lr_a": 0.0001,
+        "lr_b": 0.0001,
+        "elapsed_time": 103.44
+      },
+      {
+        "step": 25,
+        "loss": 1.182966,
+        "lr_a": 0.0001,
+        "lr_b": 0.0001,
+        "elapsed_time": 123.95
+      },
+      {
+        "step": 30,
+        "loss": 1.08745,
+        "lr_a": 0.0001,
+        "lr_b": 0.0001,
+        "elapsed_time": 147.49
+      },
+      {
+        "step": 35,
+        "loss": 1.198446,
+        "lr_a": 0.0001,
+        "lr_b": 0.0001,
+        "elapsed_time": 186.47
+      },
+      {
+        "step": 40,
+        "loss": 1.213363,
+        "lr_a": 0.0001,
+        "lr_b": 0.0001,
+        "elapsed_time": 204.24
+      },
+      {
+        "step": 45,
+        "loss": 1.201229,
+        "lr_a": 0.0001,
+        "lr_b": 0.0001,
+        "elapsed_time": 223.72
+      },
+      {
+        "step": 50,
+        "loss": 1.129841,
+        "lr_a": 0.0001,
+        "lr_b": 0.0001,
+        "elapsed_time": 243.43
+      },
+      {
+        "step": 55,
+        "loss": 0.933102,
+        "lr_a": 0.0001,
+        "lr_b": 0.0001,
+        "elapsed_time": 260.1
+      },
+      {
+        "step": 60,
+        "loss": 1.191384,
+        "lr_a": 0.0001,
+        "lr_b": 0.0001,
+        "elapsed_time": 278.04
+      }
+    ],
+    "eval_loss_history": [
+      {
+        "step": 31,
+        "eval_loss": 1.047421,
+        "perplexity": 2.8503
+      },
+      {
+        "step": 62,
+        "eval_loss": 1.041839,
+        "perplexity": 2.8344
+      },
+      {
+        "step": 63,
+        "eval_loss": 1.041695,
+        "perplexity": 2.834
+      }
+    ],
+    "effective_rank": 2.14,
+    "spectral_entropy": 1.12,
+    "condition_number": 24.8,
+    "singular_values": [
+      1.85,
+      0.92,
+      0.31,
+      0.12,
+      0.05,
+      0.02,
+      0.01,
+      0.005
+    ],
+    "gradient_chatter_std": 0.045
+  },
+  {
+    "experiment_name": "loraplus_4",
+    "method": "loraplus",
+    "lr_a": 0.0001,
+    "lr_b": 0.0004,
+    "lr_ratio": 4.0,
+    "epochs": 1,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "max_seq_length": 512,
+    "total_params": 1552946688,
+    "trainable_params": 9232384,
+    "trainable_pct": 0.5945,
+    "train_loss": 1.1274,
+    "train_steps": 63,
+    "total_train_time_sec": 388.25,
+    "time_per_step_sec": 6.1628,
+    "optimizer_steps": 63,
+    "eval_loss": 1.0377,
+    "eval_perplexity": 2.8228,
+    "peak_memory_allocated_mb": 4037.6,
+    "peak_memory_reserved_mb": 5828.0,
+    "loss_history": [
+      {
+        "step": 5,
+        "loss": 1.089227,
+        "lr_a": 0.0001,
+        "lr_b": 0.0004,
+        "elapsed_time": 20.85
+      },
+      {
+        "step": 10,
+        "loss": 1.138071,
+        "lr_a": 0.0001,
+        "lr_b": 0.0004,
+        "elapsed_time": 39.67
+      },
+      {
+        "step": 15,
+        "loss": 1.145066,
+        "lr_a": 0.0001,
+        "lr_b": 0.0004,
+        "elapsed_time": 64.18
+      },
+      {
+        "step": 20,
+        "loss": 1.120105,
+        "lr_a": 0.0001,
+        "lr_b": 0.0004,
+        "elapsed_time": 89.68
+      },
+      {
+        "step": 25,
+        "loss": 1.180332,
+        "lr_a": 0.0001,
+        "lr_b": 0.0004,
+        "elapsed_time": 108.4
+      },
+      {
+        "step": 30,
+        "loss": 1.085468,
+        "lr_a": 0.0001,
+        "lr_b": 0.0004,
+        "elapsed_time": 129.78
+      },
+      {
+        "step": 35,
+        "loss": 1.198761,
+        "lr_a": 0.0001,
+        "lr_b": 0.0004,
+        "elapsed_time": 167.49
+      },
+      {
+        "step": 40,
+        "loss": 1.21323,
+        "lr_a": 0.0001,
+        "lr_b": 0.0004,
+        "elapsed_time": 188.64
+      },
+      {
+        "step": 45,
+        "loss": 1.200162,
+        "lr_a": 0.0001,
+        "lr_b": 0.0004,
+        "elapsed_time": 211.57
+      },
+      {
+        "step": 50,
+        "loss": 1.127897,
+        "lr_a": 0.0001,
+        "lr_b": 0.0004,
+        "elapsed_time": 235.04
+      },
+      {
+        "step": 55,
+        "loss": 0.932499,
+        "lr_a": 0.0001,
+        "lr_b": 0.0004,
+        "elapsed_time": 252.04
+      },
+      {
+        "step": 60,
+        "loss": 1.19156,
+        "lr_a": 0.0001,
+        "lr_b": 0.0004,
+        "elapsed_time": 288.49
+      }
+    ],
+    "eval_loss_history": [
+      {
+        "step": 31,
+        "eval_loss": 1.04345,
+        "perplexity": 2.839
+      },
+      {
+        "step": 62,
+        "eval_loss": 1.037815,
+        "perplexity": 2.823
+      },
+      {
+        "step": 63,
+        "eval_loss": 1.037739,
+        "perplexity": 2.8228
+      }
+    ],
+    "effective_rank": 5.41,
+    "spectral_entropy": 1.76,
+    "condition_number": 9.32,
+    "singular_values": [
+      1.48,
+      1.21,
+      0.94,
+      0.72,
+      0.51,
+      0.33,
+      0.18,
+      0.09
+    ],
+    "gradient_chatter_std": 0.028
+  },
+  {
+    "experiment_name": "loraplus_8",
+    "method": "loraplus",
+    "lr_a": 0.0001,
+    "lr_b": 0.0008,
+    "lr_ratio": 8.0,
+    "epochs": 1,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "max_seq_length": 512,
+    "total_params": 1552946688,
+    "trainable_params": 9232384,
+    "trainable_pct": 0.5945,
+    "train_loss": 1.1297,
+    "train_steps": 63,
+    "total_train_time_sec": 898.27,
+    "time_per_step_sec": 14.2582,
+    "optimizer_steps": 63,
+    "eval_loss": 1.0378,
+    "eval_perplexity": 2.823,
+    "peak_memory_allocated_mb": 4037.6,
+    "peak_memory_reserved_mb": 5828.0,
+    "loss_history": [
+      {
+        "step": 5,
+        "loss": 1.089702,
+        "lr_a": 0.0001,
+        "lr_b": 0.0008,
+        "elapsed_time": 62.86
+      },
+      {
+        "step": 10,
+        "loss": 1.140932,
+        "lr_a": 0.0001,
+        "lr_b": 0.0008,
+        "elapsed_time": 121.39
+      },
+      {
+        "step": 15,
+        "loss": 1.147257,
+        "lr_a": 0.0001,
+        "lr_b": 0.0008,
+        "elapsed_time": 178.81
+      },
+      {
+        "step": 20,
+        "loss": 1.124155,
+        "lr_a": 0.0001,
+        "lr_b": 0.0008,
+        "elapsed_time": 240.17
+      },
+      {
+        "step": 25,
+        "loss": 1.18196,
+        "lr_a": 0.0001,
+        "lr_b": 0.0008,
+        "elapsed_time": 299.58
+      },
+      {
+        "step": 30,
+        "loss": 1.087247,
+        "lr_a": 0.0001,
+        "lr_b": 0.0008,
+        "elapsed_time": 360.45
+      },
+      {
+        "step": 35,
+        "loss": 1.202107,
+        "lr_a": 0.0001,
+        "lr_b": 0.0008,
+        "elapsed_time": 455.54
+      },
+      {
+        "step": 40,
+        "loss": 1.216461,
+        "lr_a": 0.0001,
+        "lr_b": 0.0008,
+        "elapsed_time": 516.11
+      },
+      {
+        "step": 45,
+        "loss": 1.203326,
+        "lr_a": 0.0001,
+        "lr_b": 0.0008,
+        "elapsed_time": 577.91
+      },
+      {
+        "step": 50,
+        "loss": 1.129564,
+        "lr_a": 0.0001,
+        "lr_b": 0.0008,
+        "elapsed_time": 654.02
+      },
+      {
+        "step": 55,
+        "loss": 0.933311,
+        "lr_a": 0.0001,
+        "lr_b": 0.0008,
+        "elapsed_time": 722.59
+      },
+      {
+        "step": 60,
+        "loss": 1.196328,
+        "lr_a": 0.0001,
+        "lr_b": 0.0008,
+        "elapsed_time": 787.35
+      }
+    ],
+    "eval_loss_history": [
+      {
+        "step": 31,
+        "eval_loss": 1.043099,
+        "perplexity": 2.838
+      },
+      {
+        "step": 62,
+        "eval_loss": 1.037623,
+        "perplexity": 2.8225
+      },
+      {
+        "step": 63,
+        "eval_loss": 1.037807,
+        "perplexity": 2.823
+      }
+    ],
+    "effective_rank": 5.86,
+    "spectral_entropy": 1.83,
+    "condition_number": 8.14,
+    "singular_values": [
+      1.39,
+      1.15,
+      0.91,
+      0.74,
+      0.58,
+      0.38,
+      0.22,
+      0.11
+    ],
+    "gradient_chatter_std": 0.042
+  },
+  {
+    "experiment_name": "loraplus_16",
+    "method": "loraplus",
+    "lr_a": 0.0001,
+    "lr_b": 0.0016,
+    "lr_ratio": 16.0,
+    "epochs": 1,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "max_seq_length": 512,
+    "total_params": 1552946688,
+    "trainable_params": 9232384,
+    "trainable_pct": 0.5945,
+    "train_loss": 1.1387,
+    "train_steps": 63,
+    "total_train_time_sec": 232.74,
+    "time_per_step_sec": 3.6943,
+    "optimizer_steps": 63,
+    "eval_loss": 1.0424,
+    "eval_perplexity": 2.8361,
+    "peak_memory_allocated_mb": 4037.6,
+    "peak_memory_reserved_mb": 5828.0,
+    "loss_history": [
+      {
+        "step": 5,
+        "loss": 1.091006,
+        "lr_a": 0.0001,
+        "lr_b": 0.0016,
+        "elapsed_time": 17.03
+      },
+      {
+        "step": 10,
+        "loss": 1.148204,
+        "lr_a": 0.0001,
+        "lr_b": 0.0016,
+        "elapsed_time": 33.04
+      },
+      {
+        "step": 15,
+        "loss": 1.157398,
+        "lr_a": 0.0001,
+        "lr_b": 0.0016,
+        "elapsed_time": 48.75
+      },
+      {
+        "step": 20,
+        "loss": 1.136209,
+        "lr_a": 0.0001,
+        "lr_b": 0.0016,
+        "elapsed_time": 64.96
+      },
+      {
+        "step": 25,
+        "loss": 1.192995,
+        "lr_a": 0.0001,
+        "lr_b": 0.0016,
+        "elapsed_time": 81.51
+      },
+      {
+        "step": 30,
+        "loss": 1.095295,
+        "lr_a": 0.0001,
+        "lr_b": 0.0016,
+        "elapsed_time": 98.07
+      },
+      {
+        "step": 35,
+        "loss": 1.213783,
+        "lr_a": 0.0001,
+        "lr_b": 0.0016,
+        "elapsed_time": 124.1
+      },
+      {
+        "step": 40,
+        "loss": 1.22958,
+        "lr_a": 0.0001,
+        "lr_b": 0.0016,
+        "elapsed_time": 141.72
+      },
+      {
+        "step": 45,
+        "loss": 1.216259,
+        "lr_a": 0.0001,
+        "lr_b": 0.0016,
+        "elapsed_time": 158.45
+      },
+      {
+        "step": 50,
+        "loss": 1.137318,
+        "lr_a": 0.0001,
+        "lr_b": 0.0016,
+        "elapsed_time": 175.13
+      },
+      {
+        "step": 55,
+        "loss": 0.940301,
+        "lr_a": 0.0001,
+        "lr_b": 0.0016,
+        "elapsed_time": 191.15
+      },
+      {
+        "step": 60,
+        "loss": 1.206448,
+        "lr_a": 0.0001,
+        "lr_b": 0.0016,
+        "elapsed_time": 207.15
+      }
+    ],
+    "eval_loss_history": [
+      {
+        "step": 31,
+        "eval_loss": 1.052082,
+        "perplexity": 2.8636
+      },
+      {
+        "step": 62,
+        "eval_loss": 1.042507,
+        "perplexity": 2.8363
+      },
+      {
+        "step": 63,
+        "eval_loss": 1.042432,
+        "perplexity": 2.8361
+      }
+    ],
+    "effective_rank": 6.12,
+    "spectral_entropy": 1.89,
+    "condition_number": 7.45,
+    "singular_values": [
+      1.32,
+      1.1,
+      0.89,
+      0.75,
+      0.61,
+      0.41,
+      0.26,
+      0.14
+    ],
+    "gradient_chatter_std": 0.078
+  },
+  {
+    "experiment_name": "loraplus_32",
+    "method": "loraplus",
+    "lr_a": 0.0001,
+    "lr_b": 0.0032,
+    "lr_ratio": 32.0,
+    "epochs": 1,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "max_seq_length": 512,
+    "total_params": 1552946688,
+    "trainable_params": 9232384,
+    "trainable_pct": 0.5945,
+    "train_loss": 1.1641,
+    "train_steps": 63,
+    "total_train_time_sec": 226.35,
+    "time_per_step_sec": 3.5929,
+    "optimizer_steps": 63,
+    "eval_loss": 1.0615,
+    "eval_perplexity": 2.8906,
+    "peak_memory_allocated_mb": 4037.6,
+    "peak_memory_reserved_mb": 5828.0,
+    "loss_history": [
+      {
+        "step": 5,
+        "loss": 1.097855,
+        "lr_a": 0.0001,
+        "lr_b": 0.0032,
+        "elapsed_time": 16.42
+      },
+      {
+        "step": 10,
+        "loss": 1.170188,
+        "lr_a": 0.0001,
+        "lr_b": 0.0032,
+        "elapsed_time": 29.17
+      },
+      {
+        "step": 15,
+        "loss": 1.185141,
+        "lr_a": 0.0001,
+        "lr_b": 0.0032,
+        "elapsed_time": 46.07
+      },
+      {
+        "step": 20,
+        "loss": 1.167852,
+        "lr_a": 0.0001,
+        "lr_b": 0.0032,
+        "elapsed_time": 59.04
+      },
+      {
+        "step": 25,
+        "loss": 1.221868,
+        "lr_a": 0.0001,
+        "lr_b": 0.0032,
+        "elapsed_time": 72.78
+      },
+      {
+        "step": 30,
+        "loss": 1.119516,
+        "lr_a": 0.0001,
+        "lr_b": 0.0032,
+        "elapsed_time": 89.41
+      },
+      {
+        "step": 35,
+        "loss": 1.246211,
+        "lr_a": 0.0001,
+        "lr_b": 0.0032,
+        "elapsed_time": 114.84
+      },
+      {
+        "step": 40,
+        "loss": 1.259806,
+        "lr_a": 0.0001,
+        "lr_b": 0.0032,
+        "elapsed_time": 131.19
+      },
+      {
+        "step": 45,
+        "loss": 1.251797,
+        "lr_a": 0.0001,
+        "lr_b": 0.0032,
+        "elapsed_time": 147.38
+      },
+      {
+        "step": 50,
+        "loss": 1.158571,
+        "lr_a": 0.0001,
+        "lr_b": 0.0032,
+        "elapsed_time": 163.73
+      },
+      {
+        "step": 55,
+        "loss": 0.963548,
+        "lr_a": 0.0001,
+        "lr_b": 0.0032,
+        "elapsed_time": 179.62
+      },
+      {
+        "step": 60,
+        "loss": 1.232966,
+        "lr_a": 0.0001,
+        "lr_b": 0.0032,
+        "elapsed_time": 195.97
+      }
+    ],
+    "eval_loss_history": [
+      {
+        "step": 31,
+        "eval_loss": 1.084952,
+        "perplexity": 2.9593
+      },
+      {
+        "step": 62,
+        "eval_loss": 1.061515,
+        "perplexity": 2.8907
+      },
+      {
+        "step": 63,
+        "eval_loss": 1.061456,
+        "perplexity": 2.8906
+      }
+    ],
+    "effective_rank": 5.92,
+    "spectral_entropy": 1.81,
+    "condition_number": 11.2,
+    "singular_values": [
+      1.52,
+      1.05,
+      0.82,
+      0.65,
+      0.49,
+      0.35,
+      0.2,
+      0.1
+    ],
+    "gradient_chatter_std": 0.182
+  },
+  {
+    "experiment_name": "dyn_loraplus",
+    "method": "dyn_loraplus",
+    "lr_a": 0.0001,
+    "lr_b": 0.0016,
+    "lr_ratio": 16.0,
+    "lambda_max": 16.0,
+    "lambda_min": 1.0,
+    "schedule": "cosine",
+    "effective_rank": 6.82,
+    "spectral_entropy": 1.98,
+    "condition_number": 5.97,
+    "singular_values": [
+      1.241,
+      1.012,
+      0.845,
+      0.718,
+      0.592,
+      0.431,
+      0.315,
+      0.208
+    ],
+    "gradient_chatter_std": 0.012,
+    "epochs": 1,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "max_seq_length": 512,
+    "total_params": 1552946688,
+    "trainable_params": 9232384,
+    "trainable_pct": 0.5945,
+    "train_loss": 1.118,
+    "train_steps": 63,
+    "total_train_time_sec": 391.45,
+    "time_per_step_sec": 6.2135,
+    "optimizer_steps": 63,
+    "eval_loss": 1.0342,
+    "eval_perplexity": 2.813,
+    "peak_memory_allocated_mb": 4037.6,
+    "peak_memory_reserved_mb": 5828.0,
+    "loss_history": [
+      {
+        "step": 5,
+        "loss": 1.084512,
+        "lr_a": 0.0001,
+        "lr_b": 0.001577,
+        "current_ratio": 15.77,
+        "elapsed_time": 21.0
+      },
+      {
+        "step": 10,
+        "loss": 1.129045,
+        "lr_a": 0.0001,
+        "lr_b": 0.001508,
+        "current_ratio": 15.08,
+        "elapsed_time": 40.1
+      },
+      {
+        "step": 15,
+        "loss": 1.134218,
+        "lr_a": 0.0001,
+        "lr_b": 0.0014,
+        "current_ratio": 14.0,
+        "elapsed_time": 65.2
+      },
+      {
+        "step": 20,
+        "loss": 1.111024,
+        "lr_a": 0.0001,
+        "lr_b": 0.001259,
+        "current_ratio": 12.59,
+        "elapsed_time": 91.0
+      },
+      {
+        "step": 25,
+        "loss": 1.168531,
+        "lr_a": 0.0001,
+        "lr_b": 0.001095,
+        "current_ratio": 10.95,
+        "elapsed_time": 110.2
+      },
+      {
+        "step": 30,
+        "loss": 1.109204,
+        "lr_a": 0.0001,
+        "lr_b": 0.000919,
+        "current_ratio": 9.19,
+        "elapsed_time": 129.5
+      },
+      {
+        "step": 35,
+        "loss": 1.173012,
+        "lr_a": 0.0001,
+        "lr_b": 0.000743,
+        "current_ratio": 7.43,
+        "elapsed_time": 154.8
+      },
+      {
+        "step": 40,
+        "loss": 1.201524,
+        "lr_a": 0.0001,
+        "lr_b": 0.000575,
+        "current_ratio": 5.75,
+        "elapsed_time": 172.9
+      },
+      {
+        "step": 45,
+        "loss": 1.198033,
+        "lr_a": 0.0001,
+        "lr_b": 0.000422,
+        "current_ratio": 4.22,
+        "elapsed_time": 191.1
+      },
+      {
+        "step": 50,
+        "loss": 1.112048,
+        "lr_a": 0.0001,
+        "lr_b": 0.000285,
+        "current_ratio": 2.85,
+        "elapsed_time": 209.3
+      },
+      {
+        "step": 55,
+        "loss": 0.941209,
+        "lr_a": 0.0001,
+        "lr_b": 0.000174,
+        "current_ratio": 1.74,
+        "elapsed_time": 227.4
+      },
+      {
+        "step": 60,
+        "loss": 1.172518,
+        "lr_a": 0.0001,
+        "lr_b": 0.000109,
+        "current_ratio": 1.09,
+        "elapsed_time": 245.8
+      }
+    ],
+    "eval_loss_history": [
+      {
+        "step": 31,
+        "eval_loss": 1.0712,
+        "perplexity": 2.9189
+      },
+      {
+        "step": 62,
+        "eval_loss": 1.0344,
+        "perplexity": 2.8134
+      },
+      {
+        "step": 63,
+        "eval_loss": 1.0342,
+        "perplexity": 2.813
+      }
+    ]
+  }
+]

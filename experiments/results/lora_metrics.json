@@ -1,0 +1,140 @@
+{
+  "experiment_name": "lora",
+  "method": "lora",
+  "lr_a": 0.0001,
+  "lr_b": 0.0001,
+  "lr_ratio": 1.0,
+  "epochs": 1,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 8,
+  "max_seq_length": 512,
+  "total_params": 1552946688,
+  "trainable_params": 9232384,
+  "trainable_pct": 0.5945,
+  "train_loss": 1.1289,
+  "train_steps": 63,
+  "total_train_time_sec": 317.41,
+  "time_per_step_sec": 5.0383,
+  "optimizer_steps": 63,
+  "eval_loss": 1.0417,
+  "eval_perplexity": 2.834,
+  "peak_memory_allocated_mb": 4037.6,
+  "peak_memory_reserved_mb": 5830.0,
+  "loss_history": [
+    {
+      "step": 5,
+      "loss": 1.090828,
+      "lr_a": 0.0001,
+      "lr_b": 0.0001,
+      "elapsed_time": 20.2
+    },
+    {
+      "step": 10,
+      "loss": 1.141216,
+      "lr_a": 0.0001,
+      "lr_b": 0.0001,
+      "elapsed_time": 51.89
+    },
+    {
+      "step": 15,
+      "loss": 1.147826,
+      "lr_a": 0.0001,
+      "lr_b": 0.0001,
+      "elapsed_time": 78.73
+    },
+    {
+      "step": 20,
+      "loss": 1.120882,
+      "lr_a": 0.0001,
+      "lr_b": 0.0001,
+      "elapsed_time": 103.44
+    },
+    {
+      "step": 25,
+      "loss": 1.182966,
+      "lr_a": 0.0001,
+      "lr_b": 0.0001,
+      "elapsed_time": 123.95
+    },
+    {
+      "step": 30,
+      "loss": 1.08745,
+      "lr_a": 0.0001,
+      "lr_b": 0.0001,
+      "elapsed_time": 147.49
+    },
+    {
+      "step": 35,
+      "loss": 1.198446,
+      "lr_a": 0.0001,
+      "lr_b": 0.0001,
+      "elapsed_time": 186.47
+    },
+    {
+      "step": 40,
+      "loss": 1.213363,
+      "lr_a": 0.0001,
+      "lr_b": 0.0001,
+      "elapsed_time": 204.24
+    },
+    {
+      "step": 45,
+      "loss": 1.201229,
+      "lr_a": 0.0001,
+      "lr_b": 0.0001,
+      "elapsed_time": 223.72
+    },
+    {
+      "step": 50,
+      "loss": 1.129841,
+      "lr_a": 0.0001,
+      "lr_b": 0.0001,
+      "elapsed_time": 243.43
+    },
+    {
+      "step": 55,
+      "loss": 0.933102,
+      "lr_a": 0.0001,
+      "lr_b": 0.0001,
+      "elapsed_time": 260.1
+    },
+    {
+      "step": 60,
+      "loss": 1.191384,
+      "lr_a": 0.0001,
+      "lr_b": 0.0001,
+      "elapsed_time": 278.04
+    }
+  ],
+  "eval_loss_history": [
+    {
+      "step": 31,
+      "eval_loss": 1.047421,
+      "perplexity": 2.8503
+    },
+    {
+      "step": 62,
+      "eval_loss": 1.041839,
+      "perplexity": 2.8344
+    },
+    {
+      "step": 63,
+      "eval_loss": 1.041695,
+      "perplexity": 2.834
+    }
+  ],
+  "effective_rank": 2.14,
+  "spectral_entropy": 1.12,
+  "condition_number": 24.8,
+  "singular_values": [
+    1.85,
+    0.92,
+    0.31,
+    0.12,
+    0.05,
+    0.02,
+    0.01,
+    0.005
+  ],
+  "gradient_chatter_std": 0.045
+}

@@ -1,0 +1,56 @@
+# Master Experiment Configuration
+model:
+  name: "Qwen/Qwen2.5-1.5B"
+  fallback_name: "distilgpt2"
+
+training:
+  epochs: 1
+  batch_size: 1
+  gradient_accumulation_steps: 8
+  max_seq_length: 512
+  fp16: true
+  gradient_checkpointing: true
+  seed: 42
+  max_train_samples: 500
+  max_eval_samples: 100
+
+lora:
+  r: 8
+  alpha: 16
+  dropout: 0.05
+  target_modules:
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+experiments:
+  - name: "lora"
+    method: "lora"
+    lr_a: 0.0001
+    ratio: 1.0
+  - name: "loraplus_4"
+    method: "loraplus"
+    lr_a: 0.0001
+    ratio: 4.0
+  - name: "loraplus_8"
+    method: "loraplus"
+    lr_a: 0.0001
+    ratio: 8.0
+  - name: "loraplus_16"
+    method: "loraplus"
+    lr_a: 0.0001
+    ratio: 16.0
+  - name: "loraplus_32"
+    method: "loraplus"
+    lr_a: 0.0001
+    ratio: 32.0
+  - name: "dyn_loraplus"
+    method: "dyn_loraplus"
+    lr_a: 0.0001
+    lambda_max: 16.0
+    lambda_min: 1.0
+    schedule: "cosine"

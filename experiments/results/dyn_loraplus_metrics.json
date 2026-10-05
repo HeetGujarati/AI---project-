@@ -1,0 +1,146 @@
+{
+  "experiment_name": "dyn_loraplus",
+  "method": "dyn_loraplus",
+  "lr_a": 0.0001,
+  "lr_b": 0.0016,
+  "lr_ratio": 16.0,
+  "lambda_max": 16.0,
+  "lambda_min": 1.0,
+  "schedule": "cosine",
+  "effective_rank": 6.82,
+  "spectral_entropy": 1.98,
+  "condition_number": 5.97,
+  "singular_values": [1.241, 1.012, 0.845, 0.718, 0.592, 0.431, 0.315, 0.208],
+  "gradient_chatter_std": 0.012,
+  "epochs": 1,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 8,
+  "max_seq_length": 512,
+  "total_params": 1552946688,
+  "trainable_params": 9232384,
+  "trainable_pct": 0.5945,
+  "train_loss": 1.1180,
+  "train_steps": 63,
+  "total_train_time_sec": 391.45,
+  "time_per_step_sec": 6.2135,
+  "optimizer_steps": 63,
+  "eval_loss": 1.0342,
+  "eval_perplexity": 2.8130,
+  "peak_memory_allocated_mb": 4037.6,
+  "peak_memory_reserved_mb": 5828.0,
+  "loss_history": [
+    {
+      "step": 5,
+      "loss": 1.084512,
+      "lr_a": 0.0001,
+      "lr_b": 0.001577,
+      "current_ratio": 15.77,
+      "elapsed_time": 21.0
+    },
+    {
+      "step": 10,
+      "loss": 1.129045,
+      "lr_a": 0.0001,
+      "lr_b": 0.001508,
+      "current_ratio": 15.08,
+      "elapsed_time": 40.1
+    },
+    {
+      "step": 15,
+      "loss": 1.134218,
+      "lr_a": 0.0001,
+      "lr_b": 0.001400,
+      "current_ratio": 14.00,
+      "elapsed_time": 65.2
+    },
+    {
+      "step": 20,
+      "loss": 1.111024,
+      "lr_a": 0.0001,
+      "lr_b": 0.001259,
+      "current_ratio": 12.59,
+      "elapsed_time": 91.0
+    },
+    {
+      "step": 25,
+      "loss": 1.168531,
+      "lr_a": 0.0001,
+      "lr_b": 0.001095,
+      "current_ratio": 10.95,
+      "elapsed_time": 110.2
+    },
+    {
+      "step": 30,
+      "loss": 1.109204,
+      "lr_a": 0.0001,
+      "lr_b": 0.000919,
+      "current_ratio": 9.19,
+      "elapsed_time": 129.5
+    },
+    {
+      "step": 35,
+      "loss": 1.173012,
+      "lr_a": 0.0001,
+      "lr_b": 0.000743,
+      "current_ratio": 7.43,
+      "elapsed_time": 154.8
+    },
+    {
+      "step": 40,
+      "loss": 1.201524,
+      "lr_a": 0.0001,
+      "lr_b": 0.000575,
+      "current_ratio": 5.75,
+      "elapsed_time": 172.9
+    },
+    {
+      "step": 45,
+      "loss": 1.198033,
+      "lr_a": 0.0001,
+      "lr_b": 0.000422,
+      "current_ratio": 4.22,
+      "elapsed_time": 191.1
+    },
+    {
+      "step": 50,
+      "loss": 1.112048,
+      "lr_a": 0.0001,
+      "lr_b": 0.000285,
+      "current_ratio": 2.85,
+      "elapsed_time": 209.3
+    },
+    {
+      "step": 55,
+      "loss": 0.941209,
+      "lr_a": 0.0001,
+      "lr_b": 0.000174,
+      "current_ratio": 1.74,
+      "elapsed_time": 227.4
+    },
+    {
+      "step": 60,
+      "loss": 1.172518,
+      "lr_a": 0.0001,
+      "lr_b": 0.000109,
+      "current_ratio": 1.09,
+      "elapsed_time": 245.8
+    }
+  ],
+  "eval_loss_history": [
+    {
+      "step": 31,
+      "eval_loss": 1.071200,
+      "perplexity": 2.9189
+    },
+    {
+      "step": 62,
+      "eval_loss": 1.034400,
+      "perplexity": 2.8134
+    },
+    {
+      "step": 63,
+      "eval_loss": 1.034200,
+      "perplexity": 2.8130
+    }
+  ]
+}

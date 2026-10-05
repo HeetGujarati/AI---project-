@@ -1,0 +1,26 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Experiment artifacts and checkpoints
+experiments/checkpoints/
+experiments/logs/*.log
+*.pt
+*.bin
+*.safetensors
+
+# Local caches
+.cache/
+temp/
+
+# IDE files
+.vscode/
+.idea/

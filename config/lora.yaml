@@ -1,0 +1,22 @@
+# Standard LoRA Configuration (Baseline)
+method: "lora"
+lora:
+  r: 8
+  alpha: 16
+  dropout: 0.05
+  bias: "none"
+  task_type: "CAUSAL_LM"
+  target_modules:
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+optimizer:
+  name: "AdamW"
+  lr: 1.0e-4
+  ratio: 1.0
+  weight_decay: 0.01
